@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novidades Nike</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-dark">
+  <header class="bg-black text-primary text-center " >
+    <img style="height: 100px;" src="https://th.bing.com/th/id/OIP.DnAeoDrxvugCNJ6pSBuueAHaNI?rs=1&pid=ImgDetMain" alt="">
+   <h2 class="pb-3">Novidades </h2>
+    
+ </header>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-primary" href="index.html">Nike</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="principal.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="chuteiras.html">Chuteiras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="casaco.html">Casaco</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="camisa.html">Camisas</a>
+            </li>   
+             
+            <li class="nav-item dropdown" data-bs-theme="dark">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" >Lançamentos</a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item text-primary" href="bone.html">Bonés</a></li>
+                <li><a class="dropdown-item text-primary" href="meias.html">Meias</a></li>
+                <li><a class="dropdown-item text-primary" href="chinelo.html">Chinelos</a></li>
+              </ul>
+            </li> 
+          </ul>
+        </div>
+      </div> 
+  </nav>
+
+<!-- Carousel == fazer as imagens correrem prolado com clicks ou deixar ela rolar pro lado sozinho-->  
+<div id="demo" class="carousel slide w-75 mx-auto mt-5  " data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button " data-bs-target="#demo" data-bs-slide-to="0" class="active bg-danger"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="bg-danger"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="bg-danger"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3" class="bg-danger "></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <a href="#"><img style="height: 600px;" src="camisa6.jpg" alt="camisa Nike novidade" class="d-block w-100 rounded-5 "></a> 
+      </div>
+      <div class="carousel-item"> 
+       <a href="#"><img style="height: 600px;" src="8.jpg" alt="chuteira Nike preta novidade" class="d-block w-100 rounded-5 "></a> 
+      </div>
+      <div class="carousel-item">
+      <a href="#"><img style="height: 600px;" src="casaco6.jpg" alt="casaco nike corta vento azul" class="d-block w-100 rounded-5"></a>  
+      </div>
+      <div class="carousel-item">
+      <a href="#"> <img style="height: 600px;" src="nike.png" alt=" logo nike" class="d-block w-100 rounded-5 ">  </a>  
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
